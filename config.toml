@@ -1,4 +1,4 @@
-baseurl         = "https://eager-perlman-e78f6b.netlify.com"
+baseurl         = ""
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
