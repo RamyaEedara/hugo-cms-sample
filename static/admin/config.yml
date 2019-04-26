@@ -1,13 +1,13 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: RamyaEedara/hugo-cms-sample
 
 media_folder: "static/uploads"
 public_folder: "uploads"
 
 collections:
-  - name: "Prudential"
-    label: "Pebble" 
+  - name: "happy"
+    label: "happy path" 
     folder: "content/post"
     create: true
     slug: "{{year}}-{{slug}}"
