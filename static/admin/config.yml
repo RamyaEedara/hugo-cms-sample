@@ -58,15 +58,37 @@ collections:
           - label: "Select"
             name: "Select"
             widget: "select"
-            options:
-              - "a"
-              - "b"
-              - "c"
-          - name: radio_select
-            label: Most recent framework
-            widget: inline-select
-            options:
-              - { value: react, label: React }
-              - { value: angular, label: Angular 1.x }
-              - { value: vue, label: Vue.js }
-              - { value: $, label: jQuery }
+            fields:
+              - label: "label"
+                name: "label"
+                widget: "string"
+              - label: "Input Type"
+                name: "inputType"
+                widget: "select"
+                options:
+                    - "a"
+                    - "b"
+                    - "c"
+          - label: "Most recent framework"
+            name: "Most recent framework"
+            widget: "select"
+            fields:
+              - label: "label"
+                name: "inputType"
+                widget: "string"
+              - label: "Input Type"
+                name: "inputType"
+                widget: "select"
+                options:
+                  - "a"
+                  - "b"
+                  - "c"
+
+
+
+      
+
+
+
+
+
