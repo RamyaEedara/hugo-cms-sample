@@ -62,12 +62,11 @@ collections:
               - "a"
               - "b"
               - "c"
-
-
-
-      
-
-
-
-
-
+          - name: radio_select
+            label: Most recent framework
+            widget: inline-select
+            options:
+              - { value: react, label: React }
+              - { value: angular, label: Angular 1.x }
+              - { value: vue, label: Vue.js }
+              - { value: $, label: jQuery }
