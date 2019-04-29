@@ -78,7 +78,7 @@ collections:
                 widget: "string"
               - label: "Input Type"
                 name: "inputType"
-                widget: "select"
+                widget: "inline-select"
                 options:
                   - "a"
                   - "b"
