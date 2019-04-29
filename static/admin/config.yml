@@ -51,23 +51,17 @@ collections:
         types:
           - label: "Text"
             name: "Text"
-            widget: "list"
+            widget: "string"
             fields: 
               - {label: "label", name: "label", widget: "string"}
               - {label: "value", name: "value", widget: "string"}
           - label: "Select"
             name: "Select"
-            widget: "list"
-            fields: 
-              - {label: "label", name: "label", widget: "string"}
-              - {label: "value", name: "value", widget: "string"}
-          - label: "Radio"
-            name: "Radio"
-            widget: "list"
-            fields: 
-              - {label: "label", name: "label", widget: "string"}
-              - {label: "value", name: "value", widget: "string"}
-
+            widget: "select"
+            options:
+              - "a"
+              - "b"
+              - "c"
 
 
 
