@@ -103,7 +103,7 @@ collections:
                  fields: 
                    - label: Image
                      name: image
-                      idget: image 
+                     widget: image 
                    - label: Image heading
                      name: Image heading
                      widget: Image heading
