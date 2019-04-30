@@ -85,7 +85,21 @@ collections:
                    - label: Image Description
                      name: Image Description
                      widget: Image Description
-         
+          - label: Headings
+            name: Headings
+            widget: list
+            fields: 
+              - label: Heading Type
+                name: Heading Type
+                widget: Select
+                options:
+                   - Heading/h1
+                   - Sub heading/h2
+                   - intro/h3
+                   - Description/text
+              - label: Heading Text
+                name: Heading Text
+                widget: string
   
 
 
