@@ -62,9 +62,21 @@ collections:
         name: "index"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Description, name: description, widget: string}
+          - label: Headings
+            name: Headings
+            widget: list
+            fields: 
+              - label: Heading Type
+                name: Heading Type
+                widget: select
+                options:
+                   - Heading/h1
+                   - Sub heading/h2
+                   - intro/h3
+                   - Description/text
+              - label: Heading Text
+                name: Heading Text
+                widget: string
           - label: Intro
             name: intro
             widget: object
@@ -81,25 +93,11 @@ collections:
                      widget: image 
                    - label: Image heading
                      name: Image heading
-                     widget: Image heading
+                     widget: string
                    - label: Image Description
                      name: Image Description
-                     widget: Image Description
-          - label: Headings
-            name: Headings
-            widget: list
-            fields: 
-              - label: Heading Type
-                name: Heading Type
-                widget: select
-                options:
-                   - Heading/h1
-                   - Sub heading/h2
-                   - intro/h3
-                   - Description/text
-              - label: Heading Text
-                name: Heading Text
-                widget: string
+                     widget: string
+   
   
 
 
