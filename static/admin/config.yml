@@ -73,7 +73,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-       - file: "_content/pages"
+       - file: "content/pages2"
          label: "Landing Page"
          name: "Landing Page"
          fields: 
