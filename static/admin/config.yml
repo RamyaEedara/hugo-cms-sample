@@ -96,15 +96,15 @@ collections:
                 name: "Heading Text"
                 widget: "string"
           - label: Blurbs
-                name: blurbs
-                widget: list
-                fields: 
-                  - label: Image
-                    name: image
-                    widget: image 
-                  - label: Text
-                    name: text
-                  - widget: text
+            name: blurbs
+            widget: list
+            fields: 
+               - label: Image
+                 name: image
+                 widget: image 
+               - label: Text
+                 name: text
+                 widget: text    
 
       
 
