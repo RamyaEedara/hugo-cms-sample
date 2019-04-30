@@ -72,19 +72,19 @@ collections:
               - label: Heading
                 name: heading
                 widget: string
-              - label: Description
-                name: description
-                widget: text
               - label: Blurbs
                 name: blurbs
                 widget: list
                 fields: 
                    - label: Image
                      name: image
-                     widget: image
-                   - label: Text
-                     name: text
-                     widget: text
+                     widget: image 
+                   - label: Image heading
+                     name: Image heading
+                     widget: Image heading
+                   - label: Image Description
+                     name: Image Description
+                     widget: Image Description
          
   
 
