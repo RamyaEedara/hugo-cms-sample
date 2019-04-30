@@ -91,7 +91,7 @@ collections:
             fields: 
               - label: Heading Type
                 name: Heading Type
-                widget: Select
+                widget: select
                 options:
                    - Heading/h1
                    - Sub heading/h2
