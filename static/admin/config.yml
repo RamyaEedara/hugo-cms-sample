@@ -70,34 +70,33 @@ collections:
               - label: "Value"
                 name: "value"
                 widget: "string"
-  
-    - name: "pages"
-      label: "Pages"
-      files:
-        - file: "_content/pages"
-          label: "Landing Page"
-          name: "Landing Page"
-          fields: 
-            - {label: "Title", name: "title", widget: "string"}
-            - label: "Page Content"
-              name: "Page Content"
-              fields:
-                - label: "Headings"
-                  name: "Headings"
-                  widget: "list"
-                  required: false
-                  fields:
-                    - label: "Heading Type"
-                      name: "Heading Type"
-                      widget: "select"
-                      options:
-                          - "Heading/h1"
-                          - "Sub heading/h2"
-                          - "intro/h3"
-                          - "Description/text"
-                    - label: "Heading Text"
-                      name: "Heading Text"
-                      widget: "string"
+  - name: "pages"
+    label: "Pages"
+    files:
+       - file: "_content/pages"
+         label: "Landing Page"
+         name: "Landing Page"
+         fields: 
+           - {label: "Title", name: "title", widget: "string"}
+           - label: "Page Content"
+             name: "Page Content"
+             fields:
+               - label: "Headings"
+                 name: "Headings"
+                 widget: "list"
+                 required: false
+                 fields:
+                   - label: "Heading Type"
+                     name: "Heading Type"
+                     widget: "select"
+                     options:
+                         - "Heading/h1"
+                         - "Sub heading/h2"
+                         - "intro/h3"
+                         - "Description/text"
+                   - label: "Heading Text"
+                     name: "Heading Text"
+                     widget: "string"
                 - label: Blurbs
                   name: blurbs
                   widget: list
@@ -117,3 +116,5 @@ collections:
 
 
 
+ 
+ 
